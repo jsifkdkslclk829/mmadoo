@@ -36,7 +36,7 @@ async def cbstart(_, query: CallbackQuery):
                         "• نـصـب بـوتك مـن هـنا •", url="https://t.me/FA9SH/2059",
                     )
                 ],
-                [InlineKeyboardButton("", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("❓ طريقة التفعيل", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 الاوامر", callback_data="cbcmds"),
                     InlineKeyboardButton("❤️ المطور", url=f"https://t.me/{OWNER_NAME}"),
