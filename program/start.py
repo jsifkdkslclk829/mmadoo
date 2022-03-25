@@ -70,16 +70,17 @@ async def start_(client: Client, message: Message):
  **⚡️𝐏𝐑𝐎𝐆𝐑𝐀𝐌𝐌𝐄𝐑 [𝙻𝙸𝙳𝙾](https://t.me/J0KER7x) **
 """,
         reply_markup=InlineKeyboardMarkup(
-            [
+           [
                 [
                     InlineKeyboardButton(
-                        "• نـصـب بـوتك مـن هـنا •", url="https://t.me/FA9SH/2059",
+                        "➕اضـف الـبـوت لـمـجـمـوعـتـك➕",
+                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true",
                     )
                 ],
                 [InlineKeyboardButton("❓ طريقة التفعيل", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 الاوامر", callback_data="cbcmds"),
-                    InlineKeyboardButton("❤️ المطور", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("👨🏻‍💻 مبرمج السورس 👨🏻‍💻", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
@@ -91,12 +92,12 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "ضيـف البـوت لمجمـوعتـك ✅",
-                        url=f"https://t.me/{BOT_USERNAME}?startgroup=true"
+                        "• 𝑩𝑨𝑲𝑨𝑹 𝑴𝑼𝑺𝑰𝑪 حساب مساعد •", url="https://t.me/MRLido7x"
                     )
                 ],
             ]
         ),
+        disable_web_page_preview=True,
     )
 
 
