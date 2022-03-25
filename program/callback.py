@@ -33,26 +33,26 @@ async def cbstart(_, query: CallbackQuery):
             [
                 [
                     InlineKeyboardButton(
-                        "➕اضـف الـبـوت لـمـجـمـوعـتـك➕",
-                        url=f"https://t.me/bakar10_bot?startgroup=truehttps://t.me/bakar10_bot?startgroup=true",
+                        "• lido •", url="https://t.me/J0KER7x",
                     )
                 ],
-                [InlineKeyboardButton("❓ طريقة التفعيل", callback_data="cbhowtouse")],
+                [InlineKeyboardButton("", callback_data="cbhowtouse")],
                 [
                     InlineKeyboardButton("📚 الاوامر", callback_data="cbcmds"),
-                    InlineKeyboardButton("👨🏻‍💻 مبرمج السورس 👨🏻‍💻", url=f"https://t.me/{OWNER_NAME}"),
+                    InlineKeyboardButton("❤️ المطور", url=f"https://t.me/{OWNER_NAME}"),
                 ],
                 [
                     InlineKeyboardButton(
                         "👥 جروب الدعم", url=f"https://t.me/{GROUP_SUPPORT}"
                     ),
                     InlineKeyboardButton(
-                        "📣 قناة البوت", url=f"https://t.me/J0KER_7x"
+                        "📣 قناة البوت", url=f"https://t.me/FA9SH"
                     ),
                 ],
                 [
                     InlineKeyboardButton(
-                        "• 𝑩𝑨𝑲𝑨𝑹 𝑴𝑼𝑺𝑰𝑪 حساب مساعد •", url="https://t.me/MRLido7x"
+                        "ضيـف البـوت لمجمـوعتـك ✅",
+                        url=f"https://t.me/USDDBOT?startgroup=true"
                     )
                 ],
             ]
