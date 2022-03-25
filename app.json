@@ -1,7 +1,7 @@
 {
-    "name": "Video x Music Stream Bot",
-    "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by PyTgCalls and Pyrogram",
-    "logo": "https://telegra.ph/file/18b88af791e36bf3c4259.jpg",
+    "name": "بوت جوكر سفن اكس ميوزك",
+    "description": "تابع قناة لمعرفة تحديثات @J0KER_7x",
+    "logo": "https://telegra.ph/file/677523992567c76a802fc.jpg",
     "keywords": [
         "py-tgcalls",
         "telegram bot",
@@ -11,9 +11,9 @@
         "mongodb",
         "pyrogram"
     ],
-    "website": "https://t.me/FA9SH",
-    "repository": "https://github.com/USDDBOT/Shadow",
-    "success_url": "https://t.me/usddshad",
+    "website": "https://t.me/J0KER_7x",
+    "repository": "https://github.com/JOKER-7X/Shadowmic",
+    "success_url": "https://t.me/MusicJoker7x",
     "env": {
         "API_ID": {
             "description": "قم بوضع الايبي ايدي هنا",
@@ -25,17 +25,18 @@
         },
         "BOT_TOKEN": {
             "description": "قم بوضع توكن البوت الخاص بك هنا",
-            "required": true
+            "required": true,
+            "value": "5086017506:AAH0kLHo57wptdpmDagqUMays_tLAULjUw4"
         },
         "BOT_USERNAME": {
             "description": "قم بوضع يوزر بوتك بدون علامة @",
             "required": true,
-            "value": "USDDBOT"
+            "value": "Joker7x_bot"
         },
         "ASSISTANT_NAME": {
             "description": "قم بوضع يوزر الحساب المساعد بدون علامة @",
             "required": true,
-            "value": "SHADOW_MUSIC0"
+            "value": "MRLido7x"
         },
         "SESSION_NAME": {
             "description": "قم بوضع كود تيرمكس هنا",
@@ -44,34 +45,37 @@
         "SUDO_USERS": {
             "description": "قم بوضع ايدي المطور الاساسي",
             "required": true,
-            "value": "1970797144"
+            "value": "776886547"
         },
         "GROUP_SUPPORT": {
             "description": "ضع هنا يوزر جروبك بدون علامة @",
             "required": true,
-            "value": "shadow49"
+            "value": "MusicJoker7x"
         },
         "UPDATES_CHANNEL": {
             "description": "ضع هنا يوزر قناتك بدون علامة @",
             "required": true,
-            "value": "FA9SH"
+            "value": "J0KER_7x"
         },
         "OWNER_NAME": {
             "description": "ضع هنا يوزر المطور بدون علامة @",
             "required": true,
-            "value": "usddshad"
+            "value": "J0KER7x"
         },
         "BOT_PHOTO": {
-            "description": "ضع لينك صورة البوت من هنا @T_ELEGRAPH00BOT",
-            "required": true
+            "description": "ضع لينك صورة البوت من هنا ",
+            "required": true,
+            "value": "https://telegra.ph/file/e43792bb92f23737c0bf2.jpg"
         },
         "DEV_PHOTO": {
-            "description": "ضع لينك صورة حساب مطور البوت من هنا @T_ELEGRAPH00BOT",
-            "required": true
+            "description": "ضع لينك صورة حساب مطور البوت من هنا",
+            "required": true,
+            "value": "https://telegra.ph/file/370f1252f022bdbf05d3d.jpg"
         },
         "DEV_NAME": {
             "description": "ضع اسم حساب التليجرام الخاص بالمطور",
-            "required": true
+            "required": true,
+            "value": "𓆩 آݪــمــبــرمــج ݪــيدو 𓆪" 
         },
         "ALIVE_NAME": {
             "description": "ضع هنا اسم الحساب المساعد",
@@ -86,7 +90,7 @@
         "UPSTREAM_REPO": {
             "description": "اتركه كما هوا",
             "required": true,
-            "value": "https://github.com/USDDBOT/Shadow"
+            "value": "https://github.com/JOKER-7X/Shadowmic"
         }
     },
     "addons": [],
